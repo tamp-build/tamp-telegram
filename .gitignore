@@ -8,3 +8,6 @@ obj/
 
 # Local NuGet packs go to a global feed, not the repo
 *.nupkg
+
+# Build outputs from `dotnet tamp Ci`
+artifacts/
