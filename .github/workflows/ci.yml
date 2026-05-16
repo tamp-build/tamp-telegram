@@ -55,13 +55,13 @@ jobs:
             nuget-${{ runner.os }}-
 
       - name: Restore
-        run: dotnet restore Tamp.Grype.slnx
+        run: dotnet restore Tamp.Telegram.slnx
 
       - name: Build
-        run: dotnet build Tamp.Grype.slnx --no-restore --configuration Release
+        run: dotnet build Tamp.Telegram.slnx --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test Tamp.Grype.slnx --no-build --configuration Release --logger "trx;LogFileName=test-results.trx" --results-directory ./TestResults
+        run: dotnet test Tamp.Telegram.slnx --no-build --configuration Release --logger "trx;LogFileName=test-results.trx" --results-directory ./TestResults
 
       - name: Upload test results
         if: always()
