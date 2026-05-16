@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>Tamp.Telegram</RootNamespace>
+    <AssemblyName>Tamp.Telegram</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <PackageId>Tamp.Telegram</PackageId>
+    <Description>Send Tamp build outcomes to Telegram via the Bot API. Ships a TampApiClient-based Telegram facade plus a TelegramBuildReporter (IBuildReporter) — drop into your Build.cs via [BuildReporter] to get a chat ping whenever a target fails, with the last 50 lines of stdout for context. Pairs with Tamp.Slack / Tamp.Discord (Tamp.Notify epic, TAM-227).</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(TampCorePath)" Condition="'$(TampCoreMode)' == 'project'" />
+    <PackageReference Include="Tamp.Core" Condition="'$(TampCoreMode)' == 'package'" />
+    <ProjectReference Include="$(TampHttpPath)" Condition="'$(TampHttpMode)' == 'project'" />
+    <PackageReference Include="Tamp.Http" Condition="'$(TampHttpMode)' == 'package'" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

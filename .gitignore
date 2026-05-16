@@ -1,0 +1,10 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+.DS_Store
+
+# Local NuGet packs go to a global feed, not the repo
+*.nupkg
