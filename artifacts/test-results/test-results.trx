@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="50656098-7651-4847-a42b-6528f21992b6" name="@AIRM5 2026-05-15 21:56:07" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-05-15T21:56:07.8667900-04:00" queuing="2026-05-15T21:56:07.8667900-04:00" start="2026-05-15T21:56:07.4977260-04:00" finish="2026-05-15T21:56:07.8686370-04:00" />
+  <TestSettings name="default" id="21565bdf-7dbf-4594-ad9e-fe50712aee58">
+    <Deployment runDeploymentRoot="_AIRM5_2026-05-15_21_56_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f6f340e7-165e-4df8-9ade-ccc0ed23b9f4" testId="0644eeca-e4d9-329f-7c21-31ca114c3b1a" testName="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Throws_ApiException_When_Bot_Returns_OkFalse" computerName="AIRM5" duration="00:00:00.0175811" startTime="2026-05-15T21:56:07.8301660-04:00" endTime="2026-05-15T21:56:07.8301660-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6f340e7-165e-4df8-9ade-ccc0ed23b9f4" />
+    <UnitTestResult executionId="81019b74-002f-46ed-831f-7cc2e12a01ff" testId="2966a80a-b78a-4a2a-53c2-b4f11627edce" testName="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Constructs_When_Both_Vars_Present" computerName="AIRM5" duration="00:00:00.0038855" startTime="2026-05-15T21:56:07.8191000-04:00" endTime="2026-05-15T21:56:07.8191000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81019b74-002f-46ed-831f-7cc2e12a01ff" />
+    <UnitTestResult executionId="3f6cf89f-6627-447a-9599-0607dc27c7f1" testId="a710f407-6620-7cfa-c239-1a5cc8b541b9" testName="Tamp.Telegram.Tests.TelegramBuildReporterTests.Constructor_Rejects_Null_Bot_Token" computerName="AIRM5" duration="00:00:00.0000870" startTime="2026-05-15T21:56:07.8191620-04:00" endTime="2026-05-15T21:56:07.8191620-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f6cf89f-6627-447a-9599-0607dc27c7f1" />
+    <UnitTestResult executionId="b165b38f-92cc-4704-8f83-ab88c2e0f0a5" testId="3b4c9c69-a2d3-9cca-9780-c89935480b9f" testName="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Returns_Null_When_Chat_Id_Missing" computerName="AIRM5" duration="00:00:00.0000410" startTime="2026-05-15T21:56:07.8159770-04:00" endTime="2026-05-15T21:56:07.8159770-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b165b38f-92cc-4704-8f83-ab88c2e0f0a5" />
+    <UnitTestResult executionId="2171f5f6-6ff3-4819-b409-66a2dfc27537" testId="31498aa9-2145-b907-e4c4-b9b8005e6bed" testName="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Serializes_Snake_Case_Wire_Fields" computerName="AIRM5" duration="00:00:00.0010520" startTime="2026-05-15T21:56:07.8312350-04:00" endTime="2026-05-15T21:56:07.8312350-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2171f5f6-6ff3-4819-b409-66a2dfc27537" />
+    <UnitTestResult executionId="10e9016e-eb57-435c-832a-5f4e8b14bc5c" testId="42b460f4-ec35-ffa5-b7cf-699d4c135ed3" testName="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Posts_To_Telegram_With_Bot_Token_In_Url" computerName="AIRM5" duration="00:00:00.0022540" startTime="2026-05-15T21:56:07.8336330-04:00" endTime="2026-05-15T21:56:07.8336330-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10e9016e-eb57-435c-832a-5f4e8b14bc5c" />
+    <UnitTestResult executionId="b3279b2e-fc79-4767-a940-79973e730b0f" testId="149e7b50-4df0-3c30-a816-66a7e1a54e00" testName="Tamp.Telegram.Tests.TelegramBuildReporterTests.Constructor_Rejects_Empty_Chat_Id" computerName="AIRM5" duration="00:00:00.0003333" startTime="2026-05-15T21:56:07.8161420-04:00" endTime="2026-05-15T21:56:07.8161420-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3279b2e-fc79-4767-a940-79973e730b0f" />
+    <UnitTestResult executionId="4173cf53-3ee8-469c-a9ba-f251fe5392b6" testId="07a01093-0ae6-efb1-38b8-32ec82ce657f" testName="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Returns_Null_When_Token_Missing" computerName="AIRM5" duration="00:00:00.0012985" startTime="2026-05-15T21:56:07.8148440-04:00" endTime="2026-05-15T21:56:07.8148500-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4173cf53-3ee8-469c-a9ba-f251fe5392b6" />
+    <UnitTestResult executionId="c020ad1a-6c5b-4c09-a975-d7093caf5964" testId="7814811e-4cad-39ec-9d99-ee79410a7963" testName="Tamp.Telegram.Tests.TelegramClientTests.Null_Bot_Token_Throws_At_Construction" computerName="AIRM5" duration="00:00:00.0000836" startTime="2026-05-15T21:56:07.8313340-04:00" endTime="2026-05-15T21:56:07.8313340-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c020ad1a-6c5b-4c09-a975-d7093caf5964" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Posts_To_Telegram_With_Bot_Token_In_Url" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="42b460f4-ec35-ffa5-b7cf-699d4c135ed3">
+      <Execution id="10e9016e-eb57-435c-832a-5f4e8b14bc5c" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramClientTests" name="SendMessage_Posts_To_Telegram_With_Bot_Token_In_Url" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Returns_Null_When_Chat_Id_Missing" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="3b4c9c69-a2d3-9cca-9780-c89935480b9f">
+      <Execution id="b165b38f-92cc-4704-8f83-ab88c2e0f0a5" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramBuildReporterTests" name="FromEnvironment_Returns_Null_When_Chat_Id_Missing" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Constructs_When_Both_Vars_Present" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="2966a80a-b78a-4a2a-53c2-b4f11627edce">
+      <Execution id="81019b74-002f-46ed-831f-7cc2e12a01ff" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramBuildReporterTests" name="FromEnvironment_Constructs_When_Both_Vars_Present" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramBuildReporterTests.FromEnvironment_Returns_Null_When_Token_Missing" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="07a01093-0ae6-efb1-38b8-32ec82ce657f">
+      <Execution id="4173cf53-3ee8-469c-a9ba-f251fe5392b6" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramBuildReporterTests" name="FromEnvironment_Returns_Null_When_Token_Missing" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Throws_ApiException_When_Bot_Returns_OkFalse" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="0644eeca-e4d9-329f-7c21-31ca114c3b1a">
+      <Execution id="f6f340e7-165e-4df8-9ade-ccc0ed23b9f4" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramClientTests" name="SendMessage_Throws_ApiException_When_Bot_Returns_OkFalse" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramBuildReporterTests.Constructor_Rejects_Null_Bot_Token" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="a710f407-6620-7cfa-c239-1a5cc8b541b9">
+      <Execution id="3f6cf89f-6627-447a-9599-0607dc27c7f1" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramBuildReporterTests" name="Constructor_Rejects_Null_Bot_Token" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramBuildReporterTests.Constructor_Rejects_Empty_Chat_Id" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="149e7b50-4df0-3c30-a816-66a7e1a54e00">
+      <Execution id="b3279b2e-fc79-4767-a940-79973e730b0f" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramBuildReporterTests" name="Constructor_Rejects_Empty_Chat_Id" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramClientTests.SendMessage_Serializes_Snake_Case_Wire_Fields" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="31498aa9-2145-b907-e4c4-b9b8005e6bed">
+      <Execution id="2171f5f6-6ff3-4819-b409-66a2dfc27537" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramClientTests" name="SendMessage_Serializes_Snake_Case_Wire_Fields" />
+    </UnitTest>
+    <UnitTest name="Tamp.Telegram.Tests.TelegramClientTests.Null_Bot_Token_Throws_At_Construction" storage="/users/scott/repos/tamp-telegram/tests/tamp.telegram.tests/bin/debug/net9.0/tamp.telegram.tests.dll" id="7814811e-4cad-39ec-9d99-ee79410a7963">
+      <Execution id="c020ad1a-6c5b-4c09-a975-d7093caf5964" />
+      <TestMethod codeBase="/Users/scott/repos/tamp-telegram/tests/Tamp.Telegram.Tests/bin/Debug/net9.0/Tamp.Telegram.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tamp.Telegram.Tests.TelegramClientTests" name="Null_Bot_Token_Throws_At_Construction" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0644eeca-e4d9-329f-7c21-31ca114c3b1a" executionId="f6f340e7-165e-4df8-9ade-ccc0ed23b9f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2966a80a-b78a-4a2a-53c2-b4f11627edce" executionId="81019b74-002f-46ed-831f-7cc2e12a01ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a710f407-6620-7cfa-c239-1a5cc8b541b9" executionId="3f6cf89f-6627-447a-9599-0607dc27c7f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b4c9c69-a2d3-9cca-9780-c89935480b9f" executionId="b165b38f-92cc-4704-8f83-ab88c2e0f0a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31498aa9-2145-b907-e4c4-b9b8005e6bed" executionId="2171f5f6-6ff3-4819-b409-66a2dfc27537" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42b460f4-ec35-ffa5-b7cf-699d4c135ed3" executionId="10e9016e-eb57-435c-832a-5f4e8b14bc5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="149e7b50-4df0-3c30-a816-66a7e1a54e00" executionId="b3279b2e-fc79-4767-a940-79973e730b0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07a01093-0ae6-efb1-38b8-32ec82ce657f" executionId="4173cf53-3ee8-469c-a9ba-f251fe5392b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7814811e-4cad-39ec-9d99-ee79410a7963" executionId="c020ad1a-6c5b-4c09-a975-d7093caf5964" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.15)
+[xUnit.net 00:00:00.03]   Discovering: Tamp.Telegram.Tests
+[xUnit.net 00:00:00.04]   Discovered:  Tamp.Telegram.Tests
+[xUnit.net 00:00:00.04]   Starting:    Tamp.Telegram.Tests
+[xUnit.net 00:00:00.08]   Finished:    Tamp.Telegram.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
