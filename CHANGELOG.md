@@ -7,6 +7,8 @@ versions follow [SemVer](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+- Package now ships XML documentation files (`.xml`) alongside the assembly, so consumers get IntelliSense and API docs. (Mirrors [tamp-build/tamp#3](https://github.com/tamp-build/tamp/pull/50).)
+
 ## [0.1.0] - 2026-05-15
 
 First public release. Telegram side of the Tamp.Notify epic (TAM-227); requires Tamp.Core ≥ 1.10.0 for the `[BuildReporter]` plug-in surface (TAM-230).
