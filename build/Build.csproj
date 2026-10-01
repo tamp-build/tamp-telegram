@@ -11,6 +11,8 @@
     <PackageReference Include="Tamp.Core" Condition="'$(TampCoreMode)' == 'package'" />
     <ProjectReference Include="$(TampCorePath)" Condition="'$(TampCoreMode)' == 'project'" />
     <PackageReference Include="Tamp.NetCli.V10" />
+    <PackageReference Include="Tamp.Components" />
+    <PackageReference Include="Tamp.Components.NetCli.V10" />
   </ItemGroup>
 
 </Project>
