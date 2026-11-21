@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Tamp.Core" Condition="'$(TampCoreMode)' == 'package'" />
+    <PackageReference Include="Tamp.SonarScanner.V10" />
     <ProjectReference Include="$(TampCorePath)" Condition="'$(TampCoreMode)' == 'project'" />
     <PackageReference Include="Tamp.NetCli.V10" />
     <PackageReference Include="Tamp.Components" />
